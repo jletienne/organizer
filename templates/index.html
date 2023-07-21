@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+
+      <h1 align="middle"> Organizer</h1>
+      <h2 align="middle"> - It's like Tinder, but for Organizing Photos  </h2>
+
+      <h3> Keyboard Instructions </h3>
+
+      </body></li><ul>
+        <li>Press (6) RIGHT to DELETE </li>
+        <li>Press (4) LEFT to add to LIFE</li>
+        <li>Press (8) UP to add to FOOD</li>
+        <li>Press (2) DOWN to add to FUNNY</li>
+        <li>Press (9) ZERO to add to BIZ</li>
+        <li>Press (9) ZERO to add to FOOTBALL</li>
+      </ul>
+
+
+                <h3 align="middle"> picture taken on: {{date_taken}} ||  photo_name {{photo}} || photos left {{photos_left}} </h3>
+       <div class="jumbotron"  align="middle">
+         <img src={{photo}} height=400  width=400/>
+        </div>
+
+
+       </body>
+
+
+       <form method="post" autocomplete="on" action="{{ url_for('hello_world') }}">
+
+       <div style="text-align:center;margin-right:auto;margin-left:auto">
+           <table style="width:100%" align="center">
+             <tr>
+               <td><h6><label for="result">Picks In</label></h6>Keyboard</td>
+             </tr>
+             <tr>
+               <td><input style="font-size: 10pt; width:200px; text-align:center" type="text" name="result" value= "4" /></td>
+             </tr>
+           </table>
+           <td><input type="submit" style="font-size: 30pt; width: 5em; height:2em; border:none" value="Update"/></td>
+         </form>
+       </div>
+
+
+     </body>
+
+
+
+</html>
